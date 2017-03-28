@@ -1,3 +1,13 @@
+
+NOTE: for:  http://i18next.com/docs/
+
+Use:
+}, function(err, t) {
+instead of
+(err, t) => {
+
+because it crashes Cordova!
+
 # i18next
 
 [![Travis](https://img.shields.io/travis/i18next/i18next/master.svg?style=flat-square)](https://travis-ci.org/i18next/i18next)
